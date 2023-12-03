@@ -3,7 +3,7 @@ import regex as re
 wordMap = {'one': '1', 'two': '2', 'three': '3', 'four': '4', 'five': '5', 'six': '6', 'seven': '7', 'eight': '8', 'nine': '9'}
 words = list(wordMap.keys())
 
-with open('calibrationDocument.txt') as file:
+with open('input.txt') as file:
     textlines = file.readlines()
     sumCalibrationValues = 0
     for textline in textlines:

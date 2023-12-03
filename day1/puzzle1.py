@@ -1,4 +1,4 @@
-with open('calibrationDocument.txt') as file:
+with open('input.txt') as file:
     textlines = file.readlines()
     sumCalibrationValues = 0
     for textline in textlines:
